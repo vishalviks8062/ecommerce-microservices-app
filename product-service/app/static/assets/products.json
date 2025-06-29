@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Electronic Gadget 1",
+    "price": 2000.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 1.",
+    "image_url": "/static/assets/electronics_1.jpg"
+  },
+  {
+    "name": "Electronic Gadget 2",
+    "price": 2001.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 2.",
+    "image_url": "/static/assets/electronics_2.jpg"
+  },
+  {
+    "name": "Electronic Gadget 3",
+    "price": 2002.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 3.",
+    "image_url": "/static/assets/electronics_3.jpg"
+  },
+  {
+    "name": "Electronic Gadget 4",
+    "price": 2003.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 4.",
+    "image_url": "/static/assets/electronics_4.jpg"
+  },
+  {
+    "name": "Electronic Gadget 5",
+    "price": 2004.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 5.",
+    "image_url": "/static/assets/electronics_5.jpg"
+  },
+  {
+    "name": "Electronic Gadget 6",
+    "price": 2005.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 6.",
+    "image_url": "/static/assets/electronics_6.jpg"
+  },
+  {
+    "name": "Electronic Gadget 7",
+    "price": 2006.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 7.",
+    "image_url": "/static/assets/electronics_7.jpg"
+  },
+  {
+    "name": "Electronic Gadget 8",
+    "price": 2007.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 8.",
+    "image_url": "/static/assets/electronics_8.jpg"
+  },
+  {
+    "name": "Electronic Gadget 9",
+    "price": 2008.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 9.",
+    "image_url": "/static/assets/electronics_9.jpg"
+  },
+  {
+    "name": "Electronic Gadget 10",
+    "price": 2009.99,
+    "category": "electronics",
+    "description": "High-quality electronic gadget 10.",
+    "image_url": "/static/assets/electronics_10.jpg"
+  },
+  {
+    "name": "Clothing Item 1",
+    "price": 500.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 1.",
+    "image_url": "/static/assets/clothes_1.jpg"
+  },
+  {
+    "name": "Clothing Item 2",
+    "price": 501.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 2.",
+    "image_url": "/static/assets/clothes_2.jpg"
+  },
+  {
+    "name": "Clothing Item 3",
+    "price": 502.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 3.",
+    "image_url": "/static/assets/clothes_3.jpg"
+  },
+  {
+    "name": "Clothing Item 4",
+    "price": 503.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 4.",
+    "image_url": "/static/assets/clothes_4.jpg"
+  },
+  {
+    "name": "Clothing Item 5",
+    "price": 504.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 5.",
+    "image_url": "/static/assets/clothes_5.jpg"
+  },
+  {
+    "name": "Clothing Item 6",
+    "price": 505.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 6.",
+    "image_url": "/static/assets/clothes_6.jpg"
+  },
+  {
+    "name": "Clothing Item 7",
+    "price": 506.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 7.",
+    "image_url": "/static/assets/clothes_7.jpg"
+  },
+  {
+    "name": "Clothing Item 8",
+    "price": 507.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 8.",
+    "image_url": "/static/assets/clothes_8.jpg"
+  },
+  {
+    "name": "Clothing Item 9",
+    "price": 508.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 9.",
+    "image_url": "/static/assets/clothes_9.jpg"
+  },
+  {
+    "name": "Clothing Item 10",
+    "price": 509.99,
+    "category": "clothes",
+    "description": "Comfortable and stylish clothing item 10.",
+    "image_url": "/static/assets/clothes_10.jpg"
+  },
+  {
+    "name": "Grocery Item 1",
+    "price": 100.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 1.",
+    "image_url": "/static/assets/grocery_1.jpg"
+  },
+  {
+    "name": "Grocery Item 2",
+    "price": 101.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 2.",
+    "image_url": "/static/assets/grocery_2.jpg"
+  },
+  {
+    "name": "Grocery Item 3",
+    "price": 102.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 3.",
+    "image_url": "/static/assets/grocery_3.jpg"
+  },
+  {
+    "name": "Grocery Item 4",
+    "price": 103.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 4.",
+    "image_url": "/static/assets/grocery_4.jpg"
+  },
+  {
+    "name": "Grocery Item 5",
+    "price": 104.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 5.",
+    "image_url": "/static/assets/grocery_5.jpg"
+  },
+  {
+    "name": "Grocery Item 6",
+    "price": 105.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 6.",
+    "image_url": "/static/assets/grocery_6.jpg"
+  },
+  {
+    "name": "Grocery Item 7",
+    "price": 106.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 7.",
+    "image_url": "/static/assets/grocery_7.jpg"
+  },
+  {
+    "name": "Grocery Item 8",
+    "price": 107.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 8.",
+    "image_url": "/static/assets/grocery_8.jpg"
+  },
+  {
+    "name": "Grocery Item 9",
+    "price": 108.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 9.",
+    "image_url": "/static/assets/grocery_9.jpg"
+  },
+  {
+    "name": "Grocery Item 10",
+    "price": 109.99,
+    "category": "grocery",
+    "description": "Fresh and organic grocery item 10.",
+    "image_url": "/static/assets/grocery_10.jpg"
+  }
+]
