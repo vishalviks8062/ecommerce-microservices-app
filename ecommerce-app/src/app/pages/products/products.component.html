@@ -1,0 +1,29 @@
+<div class="product-grid">
+  <button *ngIf="isAdmin" class="add-btn" (click)="openAddForm()">➕ Add Product</button>
+
+  <div class="product-card" *ngFor="let product of products">
+    <img [src]="product.imageUrl" alt="{{ product.name }}">
+    <h3>{{ product.name }}</h3>
+    <p>{{ product.description }}</p>
+    <strong>₹{{ product.price }}</strong>
+    <p>⭐ {{ product.rating || 4 }}</p>
+    
+    <button (click)="addToCart(product)">Add to Cart</button>
+    <button *ngIf="isAdmin" (click)="deleteProduct(product.id)" class="delete-btn">🗑 Delete</button>
+  </div>
+</div>
+
+<!-- Add Product Popup -->
+<div class="popup" *ngIf="showAddForm">
+  <div class="popup-content">
+    <h2>Add New Product</h2>
+    <input type="text" placeholder="Name" [(ngModel)]="newProduct.name">
+    <input type="number" placeholder="Price" [(ngModel)]="newProduct.price">
+    <input type="text" placeholder="Category" [(ngModel)]="newProduct.category">
+    <input type="text" placeholder="Image URL" [(ngModel)]="newProduct.imageUrl">
+    <textarea placeholder="Description" [(ngModel)]="newProduct.description"></textarea>
+
+    <button (click)="addProduct()">Save</button>
+    <button (click)="closeAddForm()">Cancel</button>
+  </div>
+</div>

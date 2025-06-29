@@ -1,0 +1,38 @@
+<div class="checkout-page">
+  <h2>Checkout</h2>
+
+  <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+      <label>Full Name:</label>
+      <input formControlName="fullName" type="text" />
+    </div>
+
+    <div class="form-row">
+      <label>Address:</label>
+      <input formControlName="address" type="text" />
+    </div>
+
+    <div class="form-row">
+      <label>City:</label>
+      <input formControlName="city" type="text" />
+    </div>
+
+    <div class="form-row">
+      <label>Zip Code:</label>
+      <input formControlName="zip" type="text" />
+    </div>
+
+    <div class="form-row">
+      <label>Payment Method:</label>
+      <select formControlName="paymentMethod">
+        <option value="cod">Cash on Delivery</option>
+        <option value="card">Credit/Debit Card</option>
+      </select>
+    </div>
+
+    <div class="form-summary">
+      <p>Total Amount: ₹{{ totalAmount }}</p>
+      <button type="submit" [disabled]="!checkoutForm.valid">Place Order</button>
+    </div>
+  </form>
+</div>
