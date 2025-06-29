@@ -202,14 +202,4 @@ Admin login to access product controls.
 
 ---
 
-## ✨ Future Enhancements
 
-* Add image upload support for products
-* Integrate Stripe/Razorpay for payments
-* Use PostgreSQL instead of SQLite
-* Kubernetes deployment
-* Role-based access with full user management
-
----
-
-Let me know if you'd like auto-generated service READMEs now or want to enhance this one with diagrams and badges!
