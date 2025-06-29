@@ -6,7 +6,7 @@ Coordinates cart, order, and payment services to complete the purchase.
 
 ### Checkout
 ```bash
-curl -X POST http://localhost:5007/api/checkout \
+curl -X POST http://localhost:5007/checkout \
      -H "Authorization: Bearer <JWT_TOKEN>" \
      -H "Content-Type: application/json" \
      -d '{"user_id": 1, "cart": [...]}'
